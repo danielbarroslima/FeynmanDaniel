@@ -12,9 +12,16 @@ namespace Av2_Trabalho
 {
     public partial class Form1 : Form
     {
+
+        // gerar conteúdo sobre o assunto que estudou recentemente e guarda-lo 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

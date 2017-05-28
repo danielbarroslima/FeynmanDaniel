@@ -10,19 +10,15 @@ using System.Windows.Forms;
 
 namespace Av2_Trabalho
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
         /// <summary>
-        ///  colocar um nivel de entendimento do assunto que será utilizado para verificação 
+        /// /
+        /// aqui irá inserir novamente caso escolha dificuldade alta 
         /// </summary>
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
