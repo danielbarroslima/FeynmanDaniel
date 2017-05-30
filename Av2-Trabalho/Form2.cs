@@ -13,7 +13,8 @@ namespace Av2_Trabalho
     public partial class Form2 : Form
     {
         /// <summary>
-        ///  colocar um nivel de entendimento do assunto que será utilizado para verificação 
+        ///  colocar um nivel de entendimento do assunto que será utilizado para verificação  dependente da dificuldade escolhida terá um padrão
+        ///  de avaliação 
         /// </summary>
         public Form2()
         {

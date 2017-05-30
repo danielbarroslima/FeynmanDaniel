@@ -48,18 +48,18 @@
             // 
             this.btnEntendido.Location = new System.Drawing.Point(59, 280);
             this.btnEntendido.Name = "btnEntendido";
-            this.btnEntendido.Size = new System.Drawing.Size(75, 23);
+            this.btnEntendido.Size = new System.Drawing.Size(118, 23);
             this.btnEntendido.TabIndex = 1;
-            this.btnEntendido.Text = "button1";
+            this.btnEntendido.Text = "Entendi o conteúdo ";
             this.btnEntendido.UseVisualStyleBackColor = true;
             // 
             // btnConfuso
             // 
             this.btnConfuso.Location = new System.Drawing.Point(218, 280);
             this.btnConfuso.Name = "btnConfuso";
-            this.btnConfuso.Size = new System.Drawing.Size(75, 23);
+            this.btnConfuso.Size = new System.Drawing.Size(112, 23);
             this.btnConfuso.TabIndex = 2;
-            this.btnConfuso.Text = "button2";
+            this.btnConfuso.Text = "Conteúdo confuso ";
             this.btnConfuso.UseVisualStyleBackColor = true;
             // 
             // btnSubmeter
@@ -68,16 +68,16 @@
             this.btnSubmeter.Name = "btnSubmeter";
             this.btnSubmeter.Size = new System.Drawing.Size(75, 23);
             this.btnSubmeter.TabIndex = 3;
-            this.btnSubmeter.Text = "button3";
+            this.btnSubmeter.Text = "Enviar ";
             this.btnSubmeter.UseVisualStyleBackColor = true;
             // 
             // btnAvaliar
             // 
             this.btnAvaliar.Location = new System.Drawing.Point(543, 280);
             this.btnAvaliar.Name = "btnAvaliar";
-            this.btnAvaliar.Size = new System.Drawing.Size(75, 23);
+            this.btnAvaliar.Size = new System.Drawing.Size(134, 23);
             this.btnAvaliar.TabIndex = 4;
-            this.btnAvaliar.Text = "button1";
+            this.btnAvaliar.Text = "Avaliação de conteúdo ";
             this.btnAvaliar.UseVisualStyleBackColor = true;
             // 
             // Form4

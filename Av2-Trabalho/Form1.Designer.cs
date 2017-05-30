@@ -39,7 +39,7 @@
             this.btnGerar.Name = "btnGerar";
             this.btnGerar.Size = new System.Drawing.Size(75, 23);
             this.btnGerar.TabIndex = 0;
-            this.btnGerar.Text = "Gerar artigo";
+            this.btnGerar.Text = "Gravar artigo";
             this.btnGerar.UseVisualStyleBackColor = true;
             // 
             // button2
