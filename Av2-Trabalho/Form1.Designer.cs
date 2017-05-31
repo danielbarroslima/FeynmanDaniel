@@ -41,6 +41,7 @@
             this.btnGerar.TabIndex = 0;
             this.btnGerar.Text = "Gravar artigo";
             this.btnGerar.UseVisualStyleBackColor = true;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // button2
             // 

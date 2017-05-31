@@ -23,5 +23,10 @@ namespace Av2_Trabalho
         {
 
         }
+
+        private void btnGerar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
