@@ -16,7 +16,37 @@ namespace Av2_Trabalho
     {
         public bool logado = false;
         private Conecta conn;
-        private SqlConnection ConnectOpen;
+        public static SqlConnection ConnectOpen;
+        public void insere() {
+                    
+
+            StringBuilder sql = new StringBuilder();
+            sql.Append("Insert into conteudos (id, conteudo ) ");
+            sql.Append("Values (@id, @conteudo )");
+            SqlCommand command = null;
+
+
+
+            try
+            {
+                command = new SqlCommand(sql.ToString(), ConnectOpen);
+                command.Parameters.Add(new SqlParameter("@id", lblData.Text));
+                command.Parameters.Add(new SqlParameter("@conteudo", txtArtigo.Text));
+                command.ExecuteNonQuery();
+
+                MessageBox.Show("Cadastrado com sucesso!");
+                Hide();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao cadastrar" + ex);
+
+            }
+
+        }
 
       
       
@@ -31,38 +61,30 @@ namespace Av2_Trabalho
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DateTime locaDate = DateTime.Now;
+     
+        DateTime locaDate = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time"));
            lblData.Text =Convert.ToString(locaDate) ;
             logado = true;
         }
 
         private void btnGerar_Click(object sender, EventArgs e)
         {
+            
+            if (txtArtigo.Text == "")
             {
-               
-                StringBuilder sql = new StringBuilder();
-                sql.Append("Insert into conteudos (id, conteudo ) ");
-                sql.Append("Values (@id, @conteudo )");
-                SqlCommand command = null;
-
-               
-
-                try
-                {
-                    command = new SqlCommand(sql.ToString(), ConnectOpen);
-                    command.Parameters.Add(new SqlParameter("@id", DateTime.Now));
-                    command.Parameters.Add(new SqlParameter("@conteudo", txtArtigo.Text));
-                    command.ExecuteNonQuery();
-
-                    MessageBox.Show("Cadastrado com sucesso!");
-                    Hide();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erro ao cadastrar" + ex);
-                  
-                }
+                MessageBox.Show("Insira algum texto");
             }
+            else
+            {
+                insere();
+                var esco = new Tela_Escolha();
+                esco.ShowDialog();
+                this.Close();
+
+            }
+
+
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -77,8 +99,7 @@ namespace Av2_Trabalho
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var esco = new Tela_Escolha();
-            esco.ShowDialog();
+
             
         }
     }
