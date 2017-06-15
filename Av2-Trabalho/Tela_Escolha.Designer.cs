@@ -40,7 +40,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(433, 267);
+            this.btnVoltar.Location = new System.Drawing.Point(459, 285);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(75, 23);
             this.btnVoltar.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // btnProceguir
             // 
-            this.btnProceguir.Location = new System.Drawing.Point(549, 267);
+            this.btnProceguir.Location = new System.Drawing.Point(549, 285);
             this.btnProceguir.Name = "btnProceguir";
             this.btnProceguir.Size = new System.Drawing.Size(75, 23);
             this.btnProceguir.TabIndex = 1;
@@ -60,7 +60,7 @@
             // rdop1
             // 
             this.rdop1.AutoSize = true;
-            this.rdop1.Location = new System.Drawing.Point(25, 164);
+            this.rdop1.Location = new System.Drawing.Point(36, 207);
             this.rdop1.Name = "rdop1";
             this.rdop1.Size = new System.Drawing.Size(60, 17);
             this.rdop1.TabIndex = 2;
@@ -72,7 +72,7 @@
             // rdop2
             // 
             this.rdop2.AutoSize = true;
-            this.rdop2.Location = new System.Drawing.Point(138, 164);
+            this.rdop2.Location = new System.Drawing.Point(150, 228);
             this.rdop2.Name = "rdop2";
             this.rdop2.Size = new System.Drawing.Size(60, 17);
             this.rdop2.TabIndex = 3;
@@ -84,7 +84,7 @@
             // rdop3
             // 
             this.rdop3.AutoSize = true;
-            this.rdop3.Location = new System.Drawing.Point(274, 164);
+            this.rdop3.Location = new System.Drawing.Point(292, 253);
             this.rdop3.Name = "rdop3";
             this.rdop3.Size = new System.Drawing.Size(60, 17);
             this.rdop3.TabIndex = 4;
@@ -96,7 +96,7 @@
             // rdop4
             // 
             this.rdop4.AutoSize = true;
-            this.rdop4.Location = new System.Drawing.Point(420, 164);
+            this.rdop4.Location = new System.Drawing.Point(421, 228);
             this.rdop4.Name = "rdop4";
             this.rdop4.Size = new System.Drawing.Size(60, 17);
             this.rdop4.TabIndex = 5;
@@ -108,7 +108,7 @@
             // rdop5
             // 
             this.rdop5.AutoSize = true;
-            this.rdop5.Location = new System.Drawing.Point(564, 164);
+            this.rdop5.Location = new System.Drawing.Point(549, 207);
             this.rdop5.Name = "rdop5";
             this.rdop5.Size = new System.Drawing.Size(60, 17);
             this.rdop5.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(189, 59);
+            this.label1.Location = new System.Drawing.Point(218, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(291, 20);
             this.label1.TabIndex = 7;
@@ -132,6 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = global::Av2_Trabalho.Properties.Resources.wordle_cap_2;
             this.ClientSize = new System.Drawing.Size(680, 320);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rdop5);

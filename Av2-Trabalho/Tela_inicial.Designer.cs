@@ -47,7 +47,7 @@
             // 
             // txtArtigo
             // 
-            this.txtArtigo.Location = new System.Drawing.Point(12, 77);
+            this.txtArtigo.Location = new System.Drawing.Point(32, 75);
             this.txtArtigo.Multiline = true;
             this.txtArtigo.Name = "txtArtigo";
             this.txtArtigo.Size = new System.Drawing.Size(613, 220);

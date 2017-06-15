@@ -59,7 +59,7 @@
             // 
             // txtCont
             // 
-            this.txtCont.Location = new System.Drawing.Point(21, 34);
+            this.txtCont.Location = new System.Drawing.Point(64, 35);
             this.txtCont.Multiline = true;
             this.txtCont.Name = "txtCont";
             this.txtCont.Size = new System.Drawing.Size(526, 261);
